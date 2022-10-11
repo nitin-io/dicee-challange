@@ -33,9 +33,21 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 4%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.btn {
+  display: block;
+  width: 100px;
+  margin: 5% auto;
+  background-color: darkred;
+  color: #EEEEEE;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
 }

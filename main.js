@@ -22,3 +22,9 @@ if (randomNumber1 > randomNumber2){
 } else {
     document.querySelector('h1').innerHTML = "Draw";
 }
+
+document.querySelector('.btn').addEventListener("click", refreshPage);
+
+function refreshPage() {
+    window.location.reload();
+}
